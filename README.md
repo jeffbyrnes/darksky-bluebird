@@ -1,5 +1,4 @@
-darksky-bluebird
-====================
+# darksky-bluebird
 
 Wrapper for the [Dark Sky API](https://darksky.net/dev/)
 
