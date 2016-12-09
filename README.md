@@ -1,7 +1,7 @@
-forecast.io-bluebird
+darksky-bluebird
 ====================
 
-Wrapper for the http://forecast.io / Dark Sky API: https://developer.forecast.io/docs/v2
+Wrapper for the [Dark Sky API](https://darksky.net/dev/)
 
 Only dependency is Bluebird!
 
@@ -10,7 +10,7 @@ Here's how to use it:
 Require the module:
 
 ```javascript
-var Forecast = require('forecast.io-bluebird');
+var Forecast = require('darksky-bluebird');
 ```
 
 Instantiate an instance of the wrapper.  You'll need to specify your API key.  You may also supply your own `timeout` value, which defaults to 2000ms or 2 seconds if not provided.

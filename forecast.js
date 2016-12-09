@@ -5,7 +5,7 @@ var version = require('./package').version;
 
 
 var Forecast = function(options) {
-    if (!options || !options.key) throw new Error('Dark Sky API key must be specified! Get one from "https://developer.forecast.io/".');
+    if (!options || !options.key) throw new Error('Dark Sky API key must be specified! Get one from "https://darksky.net/dev/".');
     if (typeof options.key !== 'string') throw new Error('API key must be a string');
     this.key = options.key;
     this.timeout = options.timeout || 2000;
@@ -33,10 +33,10 @@ Forecast.prototype.fetch = function(latitude, longitude, time, options) {
 
     var parent = this,
         requestOptions = {
-            host: 'api.forecast.io',
+            host: 'api.darksky.net',
             path: path,
             method: 'get',
-            headers: { 'User-Agent': 'NodeJS ' + process.version + ' forecast.io-bluebird (' + version + ')' }
+            headers: { 'User-Agent': 'NodeJS ' + process.version + ' darksky-bluebird (' + version + ')' }
         };
 
     return new Bluebird(function(resolve, reject) {

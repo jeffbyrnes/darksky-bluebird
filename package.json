@@ -1,7 +1,7 @@
 {
-  "name": "forecast.io-bluebird",
+  "name": "darksky-bluebird",
   "version": "0.0.1",
-  "description": "Lightweight wrapper for Forecast.IO weather API that returns Bluebird promises.",
+  "description": "Lightweight wrapper for Dark Sky weather API that returns Bluebird promises.",
   "main": "forecast.js",
   "keywords": [
     "bluebird",
