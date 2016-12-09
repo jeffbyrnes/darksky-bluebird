@@ -27,10 +27,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/timelessvirtues/forecast.io-bluebird"
+    "url": "https://github.com/jeffbyrnes/darksky-bluebird"
   },
   "bugs": {
-    "url": "https://github.com/timelessvirtues/forecast.io-bluebird/issues",
+    "url": "https://github.com/jeffbyrnes/darksky-bluebird/issues",
     "email": "peter.a.hanneman@gmail.com"
   },
   "readmeFilename": "README.md"
