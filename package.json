@@ -14,7 +14,13 @@
     "name": "Peter Hanneman",
     "email": "peter.a.hanneman@gmail.com",
     "url": "https://github.com/timelessvirtues"
-  }],
+  },
+  {
+    "name": "Jeff Byrnes",
+    "email": "thejeffbyrnes@gmail.com",
+    "url": "http://thejeffbyrnes.com/"
+  }
+  ],
   "license": "MIT",
   "dependencies": {
     "bluebird": "^2.9.27"
